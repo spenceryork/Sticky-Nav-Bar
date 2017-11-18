@@ -1,0 +1,56 @@
+body {
+    background-color: lightslategray;
+}
+
+article {
+   border: 1px solid lightblue;
+   margin: 1.5em .5em;
+   width: 15em;
+}
+
+header {
+    border: 1px dotted lightgrey;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 10em;
+    height: 10em;
+    padding: 1em;
+}
+
+.status {
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    background-color: lightslategrey;
+}
+
+.size, .weight {
+    font-weight: bold;
+}
+
+/* nav style */
+
+nav {
+    background-color: lightcoral;
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* align-content: flex-start; */
+}
+
+
+.navitem a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
